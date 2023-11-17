@@ -1,0 +1,32 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+#Tabela {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid black;
+}
+.Linha {
+    border-bottom: 3px solid black;
+}
+.Coluna {
+    border-right: 3px solid black;
+}
+.Ganhador {
+    background-color: lightgray;
+    color: green;
+}
+.campo {
+    width: 197px;
+    height: 197px;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
